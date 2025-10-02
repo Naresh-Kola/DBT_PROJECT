@@ -1,0 +1,15 @@
+version: 2
+sources:
+    - name: LEETCODE
+      database: QUESTIONS
+      schema: LEETCODE
+      tables: 
+        - name: fact_sales
+        - name: fact_returns
+        - name: dim_date
+        - name: dim_store
+        - name: dim_product
+        - name: dim_customer
+
+
+    
