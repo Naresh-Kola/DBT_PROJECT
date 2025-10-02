@@ -1,0 +1,13 @@
+Naresh_DBT:
+  outputs:
+    dev:
+      account: EJBLDGJ-JB94929
+      database: QUESTIONS
+      password: Amma@Nanna@106603
+      role: ACCOUNTADMIN
+      schema: LEETCODE
+      threads: 1
+      type: snowflake
+      user: ChinnaKanna
+      warehouse: COMPUTE_WH
+  target: dev
