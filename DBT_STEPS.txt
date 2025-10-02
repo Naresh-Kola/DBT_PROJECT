@@ -59,7 +59,10 @@ dbt init
 
 git setup
 
+
 git init
+git config --global user.email "190040236ece@gmail.com"
+git config --global user.name "Naresh_Kola"
 git add .
 git commit -m "First commit of the project"
 git branch -M main
