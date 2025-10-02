@@ -1,0 +1,59 @@
+DATA BUILD TOOL
+
+ETL => EXTRACT TRANSFORM LOAD
+ELT => EXTRACT LOAD TRANSFORM
+
+WHY DBT?
+
+MODULARITY
+TEMPLATING -> JINJA TEMPLATE
+
+DBT PLATFORMS
+1. DBT CORE   -> CLI TOOL OPEN SOUURCE
+2. DBT CLOUT  -> MANAGED BY DBT ON CLOUD
+3. DBT CANVAS -> IS A FEATURE AVAILABLE WITH IN DBT CLOUD AND IT IS DRAG AND DROP
+
+
+DBT BACKBONE
+
+DBT MODELS => CODING PART 
+
+BELOW ARE THE REQUIRED TOOLS
+
+PYTHON 13.12.00
+GIT 
+VS CODE
+
+--OPEN COMMAND PROMPT
+
+git --version
+python 
+pip install uv (it is package)
+
+create a folder and open the folder in vs code
+
+create a virtual ENV
+python -m venv .venv --> Dont use this
+
+uv init -> it will create VENV
+
+uv sync 
+
+.venv/Scripts/activate
+uv add dbt-core
+uv add dbt-snowflake
+uv pip freeze > requirements.txt
+
+dbt init
+ 
+ 1. Project Name
+ 2. Account identifier
+ 3. user Name
+ 4. password
+ 5. role
+ 6. database
+ 7. schema
+ 8. threads
+ 
+ dbt debug
+
