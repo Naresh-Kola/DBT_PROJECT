@@ -57,3 +57,11 @@ dbt init
  
  dbt debug
 
+git setup
+
+git init
+git add .
+git commit -m "First commit of the project"
+git branch -M main
+git remote add origin https://github.com/Naresh-Kola/DBT_PROJECT.git
+git push -u origin main 
