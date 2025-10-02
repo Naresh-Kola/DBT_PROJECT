@@ -68,3 +68,26 @@ git commit -m "First commit of the project"
 git branch -M main
 git remote add origin https://github.com/Naresh-Kola/DBT_PROJECT.git
 git push -u origin main 
+
+
+TO RUN DBT
+
+DBT RUN 
+
+DBT RUN --SELECT BRONZE_SALES
+
+DBT RUN --SELECT "BRONZE_SALES BRONZE_STORE"
+
+DBT RUN --SELECT "MODELS/BRONZE"
+
+
+
+
+DBT TESTS
+
+1. GENERIC TESTS
+2. SINGULAR TEST 
+
+
+DBT SEEDS 
+
