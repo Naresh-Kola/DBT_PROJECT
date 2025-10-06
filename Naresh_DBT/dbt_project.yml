@@ -41,6 +41,9 @@ models:
     gold:
       +materialized: table
       schema: gold
+    Naresh_sample:
+      +materialized: table
+      schema: Naresh_schema
 
 seeds:
   Naresh_DBT:

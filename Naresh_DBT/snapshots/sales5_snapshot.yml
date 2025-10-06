@@ -1,0 +1,17 @@
+snapshots:
+    - name: sales5_snapshot
+      relation: source('LEETCODE','CUSTOMERS143143')
+      config:
+        database: QUESTIONS
+        schema: LLETCODE
+        unique_key: CUSTOMER_ID
+        strategy: timestamp
+        updated_at: LOAD_TIMESTAMP
+        dbt_valid_to_current: "'1999-12-31'"
+        hard_delete: new_record
+        snapshot_meta_column_names:
+            dbt_valid_from: valid_from_date
+            dbt_valid_to: valid_to_date
+            dbt_scd_id: scd_id
+            dbt_updated_at: updated_date
+            dbt_is_deleted: is_deleted
