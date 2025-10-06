@@ -1,0 +1,11 @@
+snapshots:
+    - name: sales4_snapshot
+      relation: source('LEETCODE','CUSTOMERS143143')
+      config:
+        database: QUESTIONS
+        schema: LLETCODE
+        unique_key: CUSTOMER_ID
+        strategy: timestamp
+        updated_at: LOAD_TIMESTAMP
+        dbt_valid_to_current: "'1999-12-31'"
+        hard_deletes: invalidate
