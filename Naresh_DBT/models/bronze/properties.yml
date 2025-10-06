@@ -39,6 +39,10 @@ models:
             - accepted_values:
                 arguments:
                     values: ['USA','Canada']
+    - name: customer_data
+      config:
+        materialized: view
+        schema: bronze
 
 
 

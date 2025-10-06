@@ -10,6 +10,9 @@ sources:
         - name: dim_store
         - name: dim_product
         - name: dim_customer
-
         - name: items1
+        - name: customer_data
+
+        - name: orders_data
+        - name: items
     
