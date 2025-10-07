@@ -1,0 +1,11 @@
+version: 2
+sources:
+    - name: Leetcode
+      database: QUESTIONS
+      schema: LEETCODE
+      tables: 
+        - name: customer
+        - name: lineitem
+        - name: nation
+        - name: orders
+        - name: region

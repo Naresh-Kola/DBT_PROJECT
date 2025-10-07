@@ -1,0 +1,27 @@
+version: 2
+models:
+    - name: region  # <-- Model that failed to build
+      data_tests:
+        - accepted_values:
+            arguments:
+                values: ['AFRICA','AMERICA','ASIA','EUROPE','MIDDLE_EAST']
+            config:
+                severity: warn
+    - name: customer
+      columns:
+        - name: C_CUSTKEY
+          data_tests:
+            - unique
+            - not_null
+    - name: orders
+      columns:
+        - name: O_CUSTKEY
+          data_tests:
+            - relationships:
+                arguments:
+                    to: ref('customer')
+                    field: C_CUSTKEY
+
+
+
+
