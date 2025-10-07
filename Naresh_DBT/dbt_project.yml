@@ -44,6 +44,9 @@ models:
     Naresh_sample:
       +materialized: table
       schema: Naresh_schema
+    Naresh:
+      +materialized: table
+      schema: Amazon
 
 seeds:
   Naresh_DBT:
