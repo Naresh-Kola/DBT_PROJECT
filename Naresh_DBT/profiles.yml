@@ -3,7 +3,7 @@ Naresh_DBT:
     dev:
       account: EJBLDGJ-JB94929
       database: QUESTIONS
-      password: Amma@Nanna@106603
+      password: ---------
       role: ACCOUNTADMIN
       schema: LEETCODE
       threads: 1
